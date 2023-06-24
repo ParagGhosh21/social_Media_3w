@@ -1,0 +1,56 @@
+.container {
+    width: 100%;
+    padding: 2rem 6%;
+  }
+  
+  @media (min-width: 1000px) {
+    .container {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  
+  .widget {
+    margin-top: 2rem;
+  }
+  
+  @media (min-width: 1000px) {
+    .widget {
+      flex-basis: 26%;
+    }
+  }
+  
+  .user-widget {
+    flex-basis: 26%;
+  }
+  
+  @media (min-width: 1000px) {
+    .user-widget {
+      flex-basis: 26%;
+    }
+  }
+  
+  .post-widget {
+    flex-basis: 42%;
+  }
+  
+  @media (min-width: 1000px) {
+    .post-widget {
+      flex-basis: 42%;
+    }
+  }
+  
+  .advert-widget {
+    flex-basis: 26%;
+  }
+  
+  @media (min-width: 1000px) {
+    .advert-widget {
+      flex-basis: 26%;
+    }
+  }
+  
+  .friendlist-widget {
+    margin-top: 2rem;
+  }
+  
