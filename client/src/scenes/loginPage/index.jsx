@@ -8,12 +8,13 @@ const LoginPage = () => {
     <Box>
       <Box
         width="100%"
-        backgroundColor={theme.palette.background.alt}
+        backgroundColor="#0a80ad"
         p="1rem 6%"
         textAlign="center"
+        color="#fff"
       >
-        <Typography fontWeight="bold" fontSize="32px" color="primary">
-          Sociopedia
+        <Typography fontWeight="bold" fontSize="35px">
+          SocialHub
         </Typography>
       </Box>
 
@@ -24,8 +25,8 @@ const LoginPage = () => {
         borderRadius="1.5rem"
         backgroundColor={theme.palette.background.alt}
       >
-        <Typography fontWeight="500" variant="h5" sx={{ mb: "1.5rem" }}>
-          Welcome to Socipedia, the Social Media for Sociopaths!
+        <Typography fontWeight="bold" variant="h5" sx={{ mb: "1.5rem" }} color="#0a80ad" letter-spacing="3px">
+          Welcome to SocialHub, the Social Media Hub for Connecting People!
         </Typography>
         <Form />
       </Box>
