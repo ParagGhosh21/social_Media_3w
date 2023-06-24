@@ -35,7 +35,7 @@ const Navbar = () => {
   const theme = useTheme();
   const neutralLight = theme.palette.neutral.light;
   const dark = theme.palette.neutral.dark;
-  const background = theme.palette.background.default;
+  const background = "#0a80ad";
   const primaryLight = theme.palette.primary.light;
   const alt = theme.palette.background.alt;
 
@@ -47,16 +47,16 @@ const Navbar = () => {
         <Typography
           fontWeight="bold"
           fontSize="clamp(1rem, 2rem, 2.25rem)"
-          color="primary"
+          color="#0a80ad"
           onClick={() => navigate("/home")}
           sx={{
             "&:hover": {
-              color: primaryLight,
+              color: "#379ca1",
               cursor: "pointer",
             },
           }}
         >
-          Sociopedia
+          SocialHub
         </Typography>
         {isNonMobileScreens && (
           <FlexBetween
