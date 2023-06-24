@@ -65,7 +65,7 @@ const UserWidget = ({ userId, picturePath }) => {
               fontWeight="500"
               sx={{
                 "&:hover": {
-                  color: palette.primary.light,
+                  color: "#379ca1",
                   cursor: "pointer",
                 },
               }}
