@@ -89,7 +89,7 @@ const MyPostWidget = ({ picturePath }) => {
               <FlexBetween>
                 <Box
                   {...getRootProps()}
-                  border={`2px dashed ${palette.primary.main}`}
+                  border= "2px dashed #0a80ad"
                   p="1rem"
                   width="100%"
                   sx={{ "&:hover": { cursor: "pointer" } }}
@@ -158,8 +158,9 @@ const MyPostWidget = ({ picturePath }) => {
           disabled={!post}
           onClick={handlePost}
           sx={{
-            color: "#ffffff",
-            backgroundColor: "#379ca1",
+            color: "#fff",
+            backgroundColor: "#0a80ad",
+            font:"20px",
             borderRadius: "3rem",
             "&:hover": {
               color: "#fff",
